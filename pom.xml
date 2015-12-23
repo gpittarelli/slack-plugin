@@ -14,7 +14,7 @@
     <parent>
         <groupId>org.jenkins-ci.plugins</groupId>
         <artifactId>plugin</artifactId>
-        <version>1.637</version>
+        <version>1.596</version>
     </parent>
 
     <artifactId>slack</artifactId>
@@ -88,6 +88,11 @@
             <groupId>net.java.dev.jna</groupId>
             <artifactId>jna</artifactId>
             <version>3.2.2</version>
+        </dependency>
+        <dependency>
+            <groupId>org.jenkins-ci.plugins</groupId>
+            <artifactId>junit</artifactId>
+            <version>1.9</version>
         </dependency>
     </dependencies>
 
